@@ -1,76 +1,78 @@
 🧠 NeuroDesk - AI-Powered Task & Team Management System
 
-        
-  A revolutionary voice-controlled, AI-powered platform for task and team management, transforming how teams collaborate and manage projects.
-  Live Demo | Documentation | Report Bug | Request Feature
+
+
+
+A revolutionary voice-controlled, AI-powered platform for seamless task and team management.
+Live Demo | Documentation | Report Bug | Request Feature
 
 
 
 🚀 Overview
-NeuroDesk is an innovative task and team management platform powered by voice recognition and artificial intelligence. Built with Laravel and modern web technologies, it offers a seamless, hands-free approach to project management with support for over 20 languages.
+NeuroDesk is a cutting-edge task and team management platform that leverages voice recognition and AI to streamline collaboration. Built with Laravel and modern web technologies, it offers an intuitive, hands-free experience with support for over 20 languages.
 🎯 Key Highlights
 
-Voice-First Interface: Manage tasks effortlessly using natural voice commands.
-Multi-Language Support: Supports 20+ languages with real-time translation.
-AI-Powered Assistant: Context-aware assistance and intelligent task suggestions.
-Real-Time Collaboration: Team messaging, announcements, and live updates.
-Advanced Analytics: Interactive charts and comprehensive reporting.
-Flexible Payment System: Integrated payment tracking and subscription management.
+🎤 Voice-First Interface: Manage tasks using natural voice commands.
+🌐 Multi-Language Support: Supports 20+ languages with real-time translation.
+🤖 AI-Powered Assistant: Context-aware help and task suggestions.
+💬 Real-Time Collaboration: Team messaging and live updates.
+📊 Advanced Analytics: Interactive charts and detailed reports.
+💰 Flexible Payments: Integrated payment tracking and subscriptions.
 
 
 ✨ Features
 🎤 Voice-Controlled Task Management
 
-Hands-Free Task Creation: Create tasks using intuitive voice commands.
-Natural Language Processing: Understands inputs like "tomorrow" or "fifty dollars."
-Voice Task Assignment: Assign tasks to team members via voice.
-Multi-Language Voice Support: Accepts commands in 20+ languages.
-Continuous Voice Listening: Always-on recognition for seamless interaction.
+Hands-Free Task Creation: Create tasks via voice commands.
+Natural Language Processing: Understands inputs like "tomorrow" or "$50."
+Voice Task Assignment: Assign tasks to team members using voice.
+Multi-Language Support: Commands in 20+ languages.
+Continuous Listening: Seamless voice interaction.
 
 👥 Advanced Team Management
 
-Role-Based Access Control: Admin, Team Leader, and Employee roles.
-Smart Member Invitations: Professional email invites with SMTP2GO.
-Skill-Based Task Assignment: Auto-assign tasks based on skills.
-Team Statistics: Track team performance and productivity.
-Member Activity Tracking: Monitor engagement and task completion.
+Role-Based Access: Admin, Team Leader, and Employee roles.
+Smart Invitations: Professional email invites via SMTP2GO.
+Skill-Based Assignments: Auto-assign tasks based on skills.
+Team Statistics: Monitor performance and productivity.
+Activity Tracking: Track task completion and engagement.
 
-💬 Integrated Communication Hub
+💬 Communication Hub
 
-Voice-Activated Messaging: Send team messages using voice.
-Broadcast Announcements: Share company-wide updates.
-Direct Messaging: Private team member conversations.
-Email Integration: Professional email notifications.
-Real-Time Notifications: Instant task and message updates.
+Voice Messaging: Send team or direct messages via voice.
+Announcements: Broadcast company-wide updates.
+Direct Messaging: Private team member chats.
+Email Integration: Professional notifications.
+Real-Time Updates: Instant task and message notifications.
 
-📊 Comprehensive Analytics & Reporting
+📊 Analytics & Reporting
 
-Interactive Dashboards: Real-time task, productivity, and payment analytics.
-Advanced Filtering: Analyze data by 7, 30, 90 days, or yearly.
-Export Capabilities: Download reports in PDF and Excel.
+Interactive Dashboards: Real-time task, productivity, and payment insights.
+Advanced Filtering: Analyze by 7, 30, 90 days, or yearly.
+Export Options: Download reports in PDF/Excel.
 Chart.js Integration: Beautiful, interactive charts.
 Custom Reports: Tailored reporting for specific needs.
 
-💰 Integrated Payment System
+💰 Payment System
 
-Automatic Payments: Triggered upon task completion.
+Automatic Payments: Triggered on task completion.
 Payment History: Full transaction audit trail.
 Subscription Management: RevenueCat for Premium/Enterprise plans.
-Payment Analytics: Detailed financial insights.
-Multi-Currency Support: Handle various currencies.
+Payment Analytics: Financial reporting and forecasting.
+Multi-Currency: Supports various currencies.
 
 🤖 AI Assistant
 
 Context-Aware Help: Intelligent, context-based assistance.
-Voice Command Guidance: Comprehensive help for commands.
+Voice Guidance: Help with commands and features.
 Productivity Suggestions: AI-driven task optimization.
-Learning Capabilities: Adapts to user preferences.
+Learning Capabilities: Adapts to user patterns.
 
 📱 Responsive Design
 
 Mobile-First: Optimized for all devices.
 Progressive Web App: App-like mobile experience.
-Smooth Animations: Polished UX with CSS animations.
+Smooth Animations: Polished UX with CSS.
 Accessibility: WCAG 2.1 compliant.
 Dark/Light Mode: User-selectable themes.
 
@@ -81,44 +83,44 @@ Backend
 Framework: Laravel 10.x
 Language: PHP 8.1+
 Database: MySQL 8.0+
-Authentication: Laravel Breeze with JWT tokens
-Queue System: Redis for background jobs
+Authentication: Laravel Breeze with JWT
+Queue System: Redis
 
 Frontend
 
-Template Engine: Blade templating
+Template Engine: Blade
 CSS Framework: Tailwind CSS 3.x
-JavaScript: Vanilla JS with ES6+
-Charts: Chart.js for visualizations
+JavaScript: Vanilla JS (ES6+)
+Charts: Chart.js
 Voice Recognition: Web Speech API
 
-Third-Party Integrations
+Integrations
 
-Email: SMTP2GO for reliable delivery
-Payments: RevenueCat for subscriptions
-Voice Processing: Web Speech API with fallback
-File Storage: Laravel File Storage (S3 compatible)
+Email: SMTP2GO
+Payments: RevenueCat
+Voice Processing: Web Speech API
+File Storage: Laravel File Storage (S3)
 
-Development Tools
+Tools
 
-Package Manager: Composer (PHP), npm (JS)
+Package Manager: Composer, npm
 Build Tools: Laravel Mix / Vite
 Testing: PHPUnit, Laravel Dusk
 Code Quality: PHP CS Fixer, ESLint
 
 
-📋 Installation & Setup
+📋 Installation
 Prerequisites
 
-PHP: >= 8.1 (with PDO, OpenSSL, Mbstring, etc.)
-Composer: Latest version
-MySQL: >= 8.0 or MariaDB >= 10.3
-Node.js: >= 16.x with npm
-Web Server: Apache/Nginx (production)
+PHP >= 8.1 (with PDO, OpenSSL, Mbstring, etc.)
+Composer
+MySQL >= 8.0 or MariaDB >= 10.3
+Node.js >= 16.x with npm
+Apache/Nginx (production)
 
-Quick Start
+Steps
 
-Clone the Repository
+Clone Repository
 git clone https://github.com/neurodesk/neurodesk-laravel.git
 cd neurodesk-laravel
 
@@ -131,7 +133,7 @@ Install Node.js Dependencies
 npm install
 
 
-Environment Configuration
+Environment Setup
 cp .env.example .env
 php artisan key:generate
 
@@ -160,7 +162,7 @@ REVENUECAT_API_KEY=your_revenuecat_api_key
 REVENUECAT_WEBHOOK_SECRET=your_webhook_secret
 
 
-Run Migrations and Seeders
+Run Migrations
 php artisan migrate --seed
 
 
@@ -168,72 +170,77 @@ Compile Assets
 npm run build
 
 
-Start Development Server
+Start Server
 php artisan serve
 
 
-Access the Application
+Access Application
 
-Web Interface: http://localhost:8000
+Web: http://localhost:8000
 API Docs: http://localhost:8000/api/documentation
 
 
 
 
-🎤 Voice Commands Reference
+🎤 Voice Commands
 Task Management
 
-"Create a new task" - Opens task creation dialog
-"Assign task to [name]" - Assigns task to a team member
-"Mark task as complete" - Completes selected task
-"Show my tasks" - Displays user's tasks
-"Filter tasks by priority" - Filters by priority
+"Create a new task" - Start task creation
+"Assign task to [name]" - Assign task
+"Mark task as complete" - Complete task
+"Show my tasks" - View tasks
+"Filter tasks by priority" - Filter tasks
 
 Communication
 
-"Send message to team [message]" - Sends team message
-"Send message to [name] [message]" - Sends direct message
-"Send announcement [message]" - Broadcasts announcement
-"Show recent messages" - Displays recent messages
+"Send message to team [message]" - Team message
+"Send message to [name] [message]" - Direct message
+"Send announcement [message]" - Broadcast
+"Show recent messages" - View messages
 
 Navigation
 
-"Go to dashboard" - Navigates to dashboard
-"Go to tasks" - Navigates to task page
-"Go to reports" - Navigates to analytics
-"Go to team" - Navigates to team management
-"Go to settings" - Navigates to settings
+"Go to dashboard" - Main dashboard
+"Go to tasks" - Task page
+"Go to reports" - Analytics page
+"Go to team" - Team management
+"Go to settings" - User settings
 
 Team Management
 
-"Invite [email]" - Sends team member invitation
-"Show team statistics" - Displays team metrics
-"Create new team" - Initiates team creation
+"Invite [email]" - Send invite
+"Show team statistics" - Team metrics
+"Create new team" - Create team
 
 
 📊 Subscription Plans
-Free Plan
 
-Up to 5 team members
-Basic task management
+Free Plan:
+
+5 team members
+Basic tasks
 Limited voice commands
 Email support
 
-Premium Plan - $9.99/month
 
-Up to 25 team members
+Premium Plan ($9.99/month):
+
+25 team members
 Advanced analytics
-Full voice command suite
-Priority email support
+Full voice commands
+Priority support
 Custom integrations
 
-Enterprise Plan - $29.99/month
 
-Unlimited team members
+Enterprise Plan ($29.99/month):
+
+Unlimited members
 Advanced reporting
 Custom branding
 Dedicated support
 API access
+
+
 
 For pricing details, visit x.ai/grok.
 
@@ -241,50 +248,46 @@ For pricing details, visit x.ai/grok.
 Voice Recognition
 
 Grant microphone permissions
-Use Chrome/Edge for compatibility
-Set language preferences in settings
-Test voice recognition in settings
+Use Chrome/Edge
+Set language in settings
+Test in settings panel
 
 Email
 
 Sign up for SMTP2GO
-Configure MAIL_* variables in .env
-Test with php artisan mail:test
+Configure .env MAIL_* variables
+Test: php artisan mail:test
 
 Payments
 
 Create RevenueCat account
-Set up subscription products
+Set up products
 Configure webhooks
 Test in sandbox mode
 
 
 🚀 Deployment
-Production Deployment
+Production
 
-Server Requirements
-PHP 8.1+, MySQL 8.0+, Apache/Nginx
-SSL certificate for HTTPS
-
-
-Environment Setupcomposer install --optimize-autoloader --no-dev
+Requirements: PHP 8.1+, MySQL 8.0+, Apache/Nginx, SSL
+Setup:composer install --optimize-autoloader --no-dev
 npm run production
 php artisan config:cache
 php artisan route:cache
 php artisan view:cache
 
 
-Database Migrationphp artisan migrate --force
+Migrate:php artisan migrate --force
 
 
-Queue Workersphp artisan queue:work --daemon
+Queue Workers:php artisan queue:work --daemon
 
 
-Task SchedulingAdd to crontab:* * * * * cd /path/to/neurodesk && php artisan schedule:run >> /dev/null 2>&1
+Scheduling:* * * * * cd /path/to/neurodesk && php artisan schedule:run >> /dev/null 2>&1
 
 
 
-Docker Deployment
+Docker
 FROM php:8.1-fpm
 
 RUN apt-get update && apt-get install -y \
@@ -307,43 +310,42 @@ CMD ["php-fpm"]
 
 
 🧪 Testing
-Running Tests
+Commands
 php artisan test
 php artisan test --testsuite=Feature
 php artisan test --coverage
 
-Test Categories
+Test Types
 
 Unit Tests: Core logic
-Feature Tests: End-to-end features
+Feature Tests: End-to-end
 Browser Tests: Laravel Dusk
 API Tests: REST endpoints
 
 
 🐛 Troubleshooting
-Common Issues
-Database Connection
+Database Issues
 php artisan tinker
 DB::connection()->getPdo();
 
 Voice Recognition
 
-Verify microphone permissions
+Check microphone permissions
 Use Chrome/Edge
 Ensure HTTPS
-Test microphone hardware
+Verify hardware
 
-Email Delivery
+Email Issues
 php artisan mail:test your-email@example.com
 
 Payment Issues
 
 Verify RevenueCat API key
-Check webhook configuration
+Check webhook setup
 Ensure valid SSL
-Test in sandbox mode
+Test in sandbox
 
-Debug Mode
+Debug
 APP_DEBUG=true
 APP_ENV=local
 
@@ -352,57 +354,55 @@ tail -f storage/logs/laravel.log
 
 
 🤝 Contributing
-Development Setup
 
 Fork the repository
-Create a feature branch: git checkout -b feature/amazing-feature
+Create branch: git checkout -b feature/amazing-feature
 Make changes and write tests
 Run tests: php artisan test
-Commit: git commit -m 'Add amazing feature'
+Commit: git commit -m 'Add feature'
 Push: git push origin feature/amazing-feature
-Create a Pull Request
+Create Pull Request
 
-Coding Standards
+Standards
 
-Follow PSR-12
-Use meaningful names
-Write comprehensive tests
-Document with PHPDoc
-Follow Laravel best practices
+PSR-12
+Meaningful names
+Comprehensive tests
+PHPDoc documentation
+Laravel best practices
 
 Pull Requests
 
-Clear change descriptions
+Clear descriptions
 Include tests
-Update documentation
-Ensure CI passes
-Request maintainer review
+Update docs
+Pass CI
+Request review
 
 
 📚 Documentation
 
 User Guide
-API Documentation
+API Docs
 Voice Commands
-Deployment Guide
-Contributing Guide
+Deployment
+Contributing
 
 
 🔒 Security
-Reporting Vulnerabilities
+Report Vulnerabilities
 Email: security@neurodesk.com
-Security Features
+Features
 
 JWT authentication
 Role-based access
-SQL injection prevention
-XSS/CSRF protection
+SQL/XSS/CSRF protection
 Rate limiting
 Input validation
 
 
 📄 License
-Licensed under the MIT License.
+MIT License
 
 👨‍💻 Team
 
@@ -430,19 +430,17 @@ Chart.js
 Tailwind CSS
 SMTP2GO
 RevenueCat
-Contributors and Beta Testers
+Contributors & Testers
 
 
 📞 Support
 
-Email: support@neurodesk.com
-Documentation: docs.neurodesk.com
-Community: Discord
-Issues: GitHub Issues
+Email: deepakm7778@gmail.com
+
+Issues: GitHub
 
 
 
-  Made with ❤️ by the NeuroDesk Team
-  
-  
-  
+
+Made with ❤️ by the NeuroDesk Team
+
