@@ -12,7 +12,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-[🚀 Live Demo](https://neurodesk.com) • [📖 Documentation](https://docs.neurodesk.com) • [🐛 Report Bug](https://github.com/neurodesk/neurodesk-platform/issues) • [✨ Request Feature](https://github.com/neurodesk/neurodesk-platform/issues)
+
 
 </div>
 
