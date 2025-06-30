@@ -6,12 +6,13 @@
 
 *A voice-controlled, AI-powered platform for seamless task and team management*
 
-[![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
-[![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![Next.js](https://img.shields.io/badge/Next.js-14.x-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+[![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-[🚀 Live Demo](https://neurodesk.com) • [📖 Documentation](https://docs.neurodesk.com) • [🐛 Report Bug](https://github.com/neurodesk/neurodesk-laravel/issues) • [✨ Request Feature](https://github.com/neurodesk/neurodesk-laravel/issues)
+[🚀 Live Demo](https://neurodesk.com) • [📖 Documentation](https://docs.neurodesk.com) • [🐛 Report Bug](https://github.com/neurodesk/neurodesk-platform/issues) • [✨ Request Feature](https://github.com/neurodesk/neurodesk-platform/issues)
 
 </div>
 
@@ -19,7 +20,7 @@
 
 ## 🚀 Overview
 
-**NeuroDesk** is a cutting-edge task and team management platform that revolutionizes productivity through voice recognition and AI integration. Built with Laravel 10.x, it delivers a hands-free, intuitive experience supporting 20+ languages, real-time collaboration, and advanced analytics.
+**NeuroDesk** is a cutting-edge task and team management platform that revolutionizes productivity through voice recognition and AI integration. Built with Next.js and Express.js, it delivers a hands-free, intuitive experience supporting 20+ languages, real-time collaboration, and advanced analytics.
 
 ### 🎯 Why NeuroDesk?
 
@@ -67,7 +68,7 @@
 
 ### 💰 Integrated Payment System
 - Automatic payments on task completion
-- RevenueCat subscription management
+- Stripe/PayPal integration
 - Multi-currency support
 - Financial analytics and reporting
 
@@ -89,10 +90,11 @@
 
 | Category | Technologies |
 |----------|-------------|
-| **Backend** | ![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) |
-| **Frontend** | ![Blade](https://img.shields.io/badge/Blade-FF2D20?logo=laravel&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chart.js&logoColor=white) |
-| **Integrations** | ![SMTP2GO](https://img.shields.io/badge/SMTP2GO-0052CC?logoColor=white) ![RevenueCat](https://img.shields.io/badge/RevenueCat-FF6B35?logoColor=white) ![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?logo=amazon-aws&logoColor=white) |
-| **Tools** | ![Composer](https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![PHPUnit](https://img.shields.io/badge/PHPUnit-3776AB?logoColor=white) |
+| **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-14.x-000000?logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react&logoColor=black) ![Tailwind](https://img.shields.io/badge/Tailwind-3.x-38B2AC?logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black) |
+| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?logo=express&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql&logoColor=white) |
+| **Visualization** | ![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?logo=chart.js&logoColor=white) ![D3.js](https://img.shields.io/badge/D3.js-7.x-F9A03C?logo=d3.js&logoColor=white) |
+| **Integrations** | ![SMTP2GO](https://img.shields.io/badge/SMTP2GO-0052CC?logoColor=white) ![Stripe](https://img.shields.io/badge/Stripe-008CDD?logo=stripe&logoColor=white) ![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?logo=amazon-aws&logoColor=white) |
+| **Tools** | ![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white) ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?logo=webpack&logoColor=black) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white) |
 
 </div>
 
@@ -104,83 +106,100 @@
 
 Before you begin, ensure you have the following installed:
 
-- **PHP** >= 8.1 (with PDO, OpenSSL, Mbstring extensions)
-- **Composer** (latest version)
+- **Node.js** >= 18.0 (with npm or yarn)
 - **MySQL** >= 8.0 or **MariaDB** >= 10.3
-- **Node.js** >= 16.x with npm
-- **Apache/Nginx** (for production)
+- **Git** (latest version)
+- **Modern browser** (Chrome, Firefox, Safari, Edge)
 
 ### Installation
 
 1. **Clone the Repository**
    \`\`\`bash
-   git clone https://github.com/neurodesk/neurodesk-laravel.git
-   cd neurodesk-laravel
+   git clone https://github.com/neurodesk/neurodesk-platform.git
+   cd neurodesk-platform
    \`\`\`
 
 2. **Install Dependencies**
    \`\`\`bash
-   # Install PHP dependencies
-   composer install --optimize-autoloader
-   
-   # Install Node.js dependencies
+   # Install all dependencies
    npm install
+   
+   # Or using yarn
+   yarn install
    \`\`\`
 
 3. **Environment Setup**
    \`\`\`bash
-   # Copy environment file
-   cp .env.example .env
-   
-   # Generate application key
-   php artisan key:generate
+   # Copy environment files
+   cp .env.example .env.local
+   cp server/.env.example server/.env
    \`\`\`
 
 4. **Database Configuration**
    \`\`\`env
-   DB_CONNECTION=mysql
+   # Frontend (.env.local)
+   NEXT_PUBLIC_API_URL=http://localhost:5000/api
+   NEXT_PUBLIC_APP_URL=http://localhost:3000
+   
+   # Backend (server/.env)
+   NODE_ENV=development
+   PORT=5000
+   
+   # Database
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=neurodesk
-   DB_USERNAME=your_mysql_user
+   DB_NAME=neurodesk
+   DB_USER=your_mysql_user
    DB_PASSWORD=your_mysql_password
+   
+   # JWT
+   JWT_SECRET=your_super_secret_jwt_key
+   JWT_EXPIRE=7d
    \`\`\`
 
 5. **Email Configuration (SMTP2GO)**
    \`\`\`env
-   MAIL_MAILER=smtp
-   MAIL_HOST=smtp2go.com
-   MAIL_PORT=587
-   MAIL_USERNAME=your_smtp2go_username
-   MAIL_PASSWORD=your_smtp2go_password
-   MAIL_FROM_ADDRESS=noreply@yourcompany.com
-   MAIL_FROM_NAME=NeuroDesk
+   # Add to server/.env
+   SMTP_HOST=smtp2go.com
+   SMTP_PORT=587
+   SMTP_USER=your_smtp2go_username
+   SMTP_PASS=your_smtp2go_password
+   FROM_EMAIL=noreply@yourcompany.com
+   FROM_NAME=NeuroDesk
    \`\`\`
 
-6. **Payment Configuration (RevenueCat)**
+6. **Payment Configuration (Stripe)**
    \`\`\`env
-   REVENUECAT_API_KEY=your_revenuecat_api_key
-   REVENUECAT_WEBHOOK_SECRET=your_webhook_secret
+   # Add to server/.env
+   STRIPE_PUBLIC_KEY=pk_test_your_stripe_public_key
+   STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key
+   STRIPE_WEBHOOK_SECRET=whsec_your_webhook_secret
    \`\`\`
 
-7. **Database Migration**
+7. **Database Setup**
    \`\`\`bash
-   php artisan migrate --seed
+   # Navigate to server directory
+   cd server
+   
+   # Run database migrations and seeds
+   npm run db:migrate
+   npm run db:seed
    \`\`\`
 
-8. **Compile Assets**
+8. **Start Development Servers**
    \`\`\`bash
-   npm run build
+   # Start backend server (from server directory)
+   cd server
+   npm run dev
+   
+   # Start frontend server (from root directory, new terminal)
+   npm run dev
    \`\`\`
 
-9. **Start Development Server**
-   \`\`\`bash
-   php artisan serve
-   \`\`\`
-
-10. **Access Your Application**
-    - **Web Interface**: http://localhost:8000
-    - **API Documentation**: http://localhost:8000/api/documentation
+9. **Access Your Application**
+   - **Frontend**: http://localhost:3000
+   - **Backend API**: http://localhost:5000
+   - **API Documentation**: http://localhost:5000/api/docs
 
 ---
 
@@ -243,7 +262,7 @@ Before you begin, ensure you have the following installed:
 | **Premium** | $9.99/month | 25 members | Advanced analytics, Full voice commands, Priority support |
 | **Enterprise** | $29.99/month | Unlimited | Custom branding, API access, Dedicated support |
 
-[🔗 View Detailed Pricing](https://x.ai/grok)
+[🔗 View Detailed Pricing](https://neurodesk.com/pricing)
 
 </div>
 
@@ -261,15 +280,16 @@ Before you begin, ensure you have the following installed:
 ### Email Configuration
 
 1. **Sign up for SMTP2GO** account
-2. **Configure environment variables** in `.env`
+2. **Configure environment variables** in `server/.env`
 3. **Test email functionality**:
    \`\`\`bash
-   php artisan mail:test your-email@example.com
+   cd server
+   npm run test:email your-email@example.com
    \`\`\`
 
 ### Payment Integration
 
-1. **Set up RevenueCat account**
+1. **Set up Stripe account**
 2. **Configure products and webhooks**
 3. **Test in sandbox mode** before going live
 
@@ -279,62 +299,128 @@ Before you begin, ensure you have the following installed:
 
 ### Production Deployment
 
-**Requirements**: PHP 8.1+, MySQL 8.0+, Apache/Nginx, SSL Certificate
+**Requirements**: Node.js 18+, MySQL 8.0+, Nginx/Apache, SSL Certificate
+
+#### Frontend (Next.js)
 
 \`\`\`bash
-# Optimize for production
-composer install --optimize-autoloader --no-dev
-npm run production
+# Build the application
+npm run build
 
-# Cache configuration
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
+# Start production server
+npm start
 
-# Run migrations
-php artisan migrate --force
-
-# Start queue workers
-php artisan queue:work --daemon
+# Or deploy to Vercel
+npx vercel --prod
 \`\`\`
 
-**Cron Job Setup**:
+#### Backend (Express.js)
+
 \`\`\`bash
-* * * * * cd /path/to/neurodesk && php artisan schedule:run >> /dev/null 2>&1
+# Navigate to server directory
+cd server
+
+# Install production dependencies
+npm ci --only=production
+
+# Build the application
+npm run build
+
+# Start production server with PM2
+npm install -g pm2
+pm2 start ecosystem.config.js
+\`\`\`
+
+**PM2 Configuration (ecosystem.config.js)**:
+\`\`\`javascript
+module.exports = {
+  apps: [{
+    name: 'neurodesk-api',
+    script: './dist/server.js',
+    instances: 'max',
+    exec_mode: 'cluster',
+    env: {
+      NODE_ENV: 'production',
+      PORT: 5000
+    }
+  }]
+}
 \`\`\`
 
 ### Docker Deployment
 
+#### Frontend Dockerfile
 \`\`\`dockerfile
-FROM php:8.1-fpm
+FROM node:18-alpine
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential libpng-dev libjpeg62-turbo-dev \
-    libfreetype6-dev locales zip jpegoptim optipng \
-    pngquant gifsicle vim unzip git curl libonig-dev \
-    libxml2-dev libzip-dev
+WORKDIR /app
 
-# Install PHP extensions
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
+COPY package*.json ./
+RUN npm ci --only=production
 
-# Install Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+COPY . .
+RUN npm run build
 
-# Set working directory
-WORKDIR /var/www
+EXPOSE 3000
 
-# Copy application files
-COPY . /var/www
+CMD ["npm", "start"]
+\`\`\`
 
-# Install dependencies
-RUN composer install --optimize-autoloader --no-dev
+#### Backend Dockerfile
+\`\`\`dockerfile
+FROM node:18-alpine
 
-# Set permissions
-RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
+WORKDIR /app
 
-EXPOSE 9000
-CMD ["php-fpm"]
+COPY server/package*.json ./
+RUN npm ci --only=production
+
+COPY server/ .
+RUN npm run build
+
+EXPOSE 5000
+
+CMD ["npm", "start"]
+\`\`\`
+
+#### Docker Compose
+\`\`\`yaml
+version: '3.8'
+
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:5000/api
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=database
+    depends_on:
+      - database
+
+  database:
+    image: mysql:8.0
+    environment:
+      - MYSQL_DATABASE=neurodesk
+      - MYSQL_ROOT_PASSWORD=rootpassword
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+volumes:
+  mysql_data:
 \`\`\`
 
 ---
@@ -345,21 +431,27 @@ CMD ["php-fpm"]
 
 \`\`\`bash
 # Run all tests
-php artisan test
+npm test
 
-# Run specific test suite
-php artisan test --testsuite=Feature
+# Run frontend tests
+npm run test:frontend
 
-# Run with coverage
-php artisan test --coverage
+# Run backend tests
+cd server && npm test
+
+# Run tests with coverage
+npm run test:coverage
+
+# Run end-to-end tests
+npm run test:e2e
 \`\`\`
 
 ### Test Types
 
-- **Unit Tests**: Core logic and business rules
-- **Feature Tests**: End-to-end functionality
-- **Browser Tests**: Laravel Dusk for UI testing
-- **API Tests**: REST endpoint validation
+- **Unit Tests**: Jest for component and function testing
+- **Integration Tests**: API endpoint testing with Supertest
+- **E2E Tests**: Playwright for full user journey testing
+- **Component Tests**: React Testing Library for UI components
 
 ---
 
@@ -370,21 +462,54 @@ php artisan test --coverage
 
 | Issue | Solution |
 |-------|----------|
-| **Database Connection** | Run `php artisan tinker; DB::connection()->getPdo();` |
+| **Database Connection** | Check MySQL service and credentials in `.env` |
 | **Voice Recognition** | Check permissions, use Chrome/Edge, ensure HTTPS |
-| **Email Not Working** | Test with `php artisan mail:test your-email@example.com` |
-| **Payment Issues** | Verify RevenueCat key, webhooks, SSL, sandbox mode |
+| **Email Not Working** | Test SMTP2GO credentials and connection |
+| **Build Failures** | Clear `node_modules` and reinstall dependencies |
+| **Port Conflicts** | Check if ports 3000/5000 are available |
 
 **Debug Commands**:
 \`\`\`bash
-# View logs
-tail -f storage/logs/laravel.log
+# Check Node.js version
+node --version
 
-# Enable debug mode
-# Set APP_DEBUG=true in .env
+# Check database connection
+cd server && npm run db:test
+
+# View application logs
+npm run logs
+
+# Clear cache and rebuild
+npm run clean && npm install
 \`\`\`
 
 </details>
+
+---
+
+## 📁 Project Structure
+
+\`\`\`
+neurodesk-platform/
+├── 📁 components/          # Reusable React components
+├── 📁 pages/              # Next.js pages and API routes
+├── 📁 public/             # Static assets
+├── 📁 styles/             # Global styles and Tailwind config
+├── 📁 utils/              # Utility functions
+├── 📁 hooks/              # Custom React hooks
+├── 📁 lib/                # Third-party integrations
+├── 📁 server/             # Express.js backend
+│   ├── 📁 controllers/    # Route controllers
+│   ├── 📁 models/         # Database models
+│   ├── 📁 routes/         # API routes
+│   ├── 📁 middleware/     # Custom middleware
+│   ├── 📁 utils/          # Backend utilities
+│   └── 📁 tests/          # Backend tests
+├── 📁 tests/              # Frontend tests
+├── 📄 package.json        # Frontend dependencies
+├── 📄 next.config.js      # Next.js configuration
+└── 📄 tailwind.config.js  # Tailwind CSS configuration
+\`\`\`
 
 ---
 
@@ -395,19 +520,77 @@ We welcome contributions! Please follow these steps:
 1. **Fork** the repository
 2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
 3. **Make** your changes and write tests
-4. **Run** tests: `php artisan test`
+4. **Run** tests: `npm test`
 5. **Commit** your changes: `git commit -m 'Add amazing feature'`
 6. **Push** to the branch: `git push origin feature/amazing-feature`
 7. **Create** a Pull Request
 
 ### Coding Standards
 
-- Follow **PSR-12** coding style
+- Follow **ESLint** and **Prettier** configurations
 - Use **meaningful variable and function names**
 - Write **comprehensive tests**
-- Add **PHPDoc documentation**
-- Follow **Laravel best practices**
+- Add **JSDoc documentation**
+- Follow **React and Node.js best practices**
 
+---
+
+## 📚 API Documentation
+
+### Authentication
+
+\`\`\`javascript
+// Login
+POST /api/auth/login
+{
+  "email": "user@example.com",
+  "password": "password123"
+}
+
+// Register
+POST /api/auth/register
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "password123"
+}
+\`\`\`
+
+### Tasks
+
+\`\`\`javascript
+// Get all tasks
+GET /api/tasks
+
+// Create task
+POST /api/tasks
+{
+  "title": "New Task",
+  "description": "Task description",
+  "priority": "high",
+  "dueDate": "2024-12-31"
+}
+
+// Update task
+PUT /api/tasks/:id
+{
+  "status": "completed"
+}
+\`\`\`
+
+### Team Management
+
+\`\`\`javascript
+// Invite team member
+POST /api/team/invite
+{
+  "email": "member@example.com",
+  "role": "employee"
+}
+
+// Get team analytics
+GET /api/team/analytics?period=30d
+\`\`\`
 
 ---
 
@@ -417,10 +600,11 @@ Security is our top priority. NeuroDesk includes:
 
 - **JWT Authentication** with secure token management
 - **Role-based Access Control** (RBAC)
-- **SQL Injection Protection** via Eloquent ORM
+- **SQL Injection Protection** via parameterized queries
 - **XSS Protection** with input sanitization
 - **CSRF Protection** on all forms
 - **Rate Limiting** to prevent abuse
+- **HTTPS Enforcement** in production
 
 **Report Security Vulnerabilities**: [security@neurodesk.com](mailto:security@neurodesk.com)
 
@@ -430,7 +614,7 @@ Security is our top priority. NeuroDesk includes:
 
 <div align="center">
 
-| ![Deepak Mishra](https://github.com/deepakmishra.png?size=100) | ![Vrushali Nanavati](https://github.com/vrushalinanavati.png?size=100) |
+| ![Deepak Mishra](https://github.com/ddevguru.png?size=100) | ![Vrushali Nanavati](https://github.com/vrxshxli.png?size=100) |
 |:---:|:---:|
 | **Deepak Mishra**<br/>*Lead Developer*<br/>[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ddevguru) | **Vrushali Nanavati**<br/>*UI/UX & Frontend*<br/>[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vrxshxli) |
 
@@ -442,16 +626,16 @@ Security is our top priority. NeuroDesk includes:
 
 Special thanks to the amazing open-source community:
 
-- [Laravel Community](https://laravel.com) for the incredible framework
+- [Next.js Team](https://nextjs.org) for the incredible React framework
+- [Express.js Community](https://expressjs.com) for the fast web framework
 - [Chart.js](https://chartjs.org) for beautiful data visualizations
 - [Tailwind CSS](https://tailwindcss.com) for utility-first styling
 - [SMTP2GO](https://smtp2go.com) for reliable email delivery
-- [RevenueCat](https://revenuecat.com) for subscription management
+- [Stripe](https://stripe.com) for payment processing
 
 ---
 
 
----
 
 ## 📄 License
 
@@ -463,9 +647,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Made with ❤️ by the NeuroDesk Team**
 
-[![GitHub stars](https://img.shields.io/github/stars/neurodesk/neurodesk-laravel?style=social)](https://github.com/neurodesk/neurodesk-laravel/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/neurodesk/neurodesk-laravel?style=social)](https://github.com/neurodesk/neurodesk-laravel/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/neurodesk/neurodesk-laravel)](https://github.com/neurodesk/neurodesk-laravel/issues)
+[![GitHub stars](https://img.shields.io/github/stars/neurodesk/neurodesk-platform?style=social)](https://github.com/neurodesk/neurodesk-platform/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/neurodesk/neurodesk-platform?style=social)](https://github.com/neurodesk/neurodesk-platform/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/neurodesk/neurodesk-platform)](https://github.com/neurodesk/neurodesk-platform/issues)
 
 *⭐ Star us on GitHub if you find NeuroDesk helpful!*
 
